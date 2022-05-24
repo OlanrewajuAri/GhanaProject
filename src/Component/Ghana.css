@@ -1,0 +1,1465 @@
+@media screen and (max-width: 992px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.GhanaMainContainer {
+    /* margin-top: -1rem; */
+    padding-top: 9rem;
+}
+
+.GhanaParent {
+    /* background-image: url(../Images/GhanaNation.jpg) !important; */
+    background-size: 100% 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover !important;
+    object-position: center center !important;
+    background: linear-gradient(180deg, rgba(7, 16, 34, 0.1) 18.3%, rgba(7, 16, 34, 0.76) 48.06%, #071022 90.13%), url(../Images/GhanaHomePg.png);
+}
+
+@media screen and (max-width: 600px) {
+    .GhanaMainContainer img {
+        width: 100%;
+        background-position: center;
+        object-fit: cover !important;
+    }
+}
+
+
+.GhanaMainContainer h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #75CCB0;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaMainContainer h6 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .GhanaMainContainer h6 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+
+
+.GhanaMainContainer h3 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 62px;
+    text-align: center;
+    color: #FAFBFB;
+    margin-top:1rem !important;
+    width: 80%;
+    margin-left: 7rem;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaMainContainer h3 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0rem;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 46px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .GhanaMainContainer h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+.GhanaMainContainer p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #A6AEBB;
+    width: 60%;
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaMainContainer p {
+        text-align: center;
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .GhanaMainContainer p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0rem;
+    }
+}
+
+.GhanaButton {
+    text-align: center;
+}
+
+
+.GhanaButton button {
+    background: #0065FF;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-top: 2rem;
+}
+
+.GhanaButton :hover {
+    background: rgba(0, 71, 179, 1);
+}
+
+.GhanaButton :active {
+    background: rgba(0, 62, 156, 1);
+
+}
+
+.GhanaButton button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FAFBFB;
+}
+
+
+.GhanaVideoClick {
+    display: flex;
+    align-items: center !important;
+    margin-top: 1rem;
+    justify-content: center !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaVideoClick {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        margin-left: 0rem !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaSubVid1 {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .GhanaVideoClick {
+        display: flex;
+        margin-left: 0rem !important;
+        align-items: center !important;
+        margin-top: 1rem;
+    }
+}
+
+.GhanaSubVid1 {
+    margin-top: -1rem;
+}
+
+.GhanaVideoClick img {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaVideoClick img {
+        margin-left: 0rem;
+    }
+}
+
+.GhanaVideoClick p {
+    margin-left: 1rem;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaVideoClick p {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .GhanaVideoClick p {
+        /* margin-left: -3rem !important; */
+    }
+}
+
+
+.GhanaSocialMediaHandles {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 85rem; */
+    margin-top: -27rem;
+    float: right;
+    margin-right: 2rem;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .GhanaSocialMediaHandles {
+        /* display: flex;
+        flex-direction: column;
+        margin-left: 42rem;
+        margin-top: -25rem; */
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        float: right !important;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .GhanaSocialMediaHandles {
+        display: none;
+    }
+}
+
+.GhanaSocialMediaHandles img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.Ghana2GeneralConatiner {
+    padding-top: 5rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2GeneralConatiner {
+        padding-top: 0rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana2GeneralConatiner {
+        padding-top: 0rem !important;
+    }
+}
+
+.Ghana2MainContainer {
+    display: flex;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    margin-top: 0rem;
+    border: 1px solid rgba(66, 82, 109, 1);
+    background: rgba(66, 82, 109, 0.08);
+
+    /* background: rgba(66, 82, 109, 0.08); */
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2MainContainer {
+        display: flex;
+        border-radius: 24px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana2MainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.Ghana2Children {
+    width: 100%;
+    border-left: 0.5px solid #7A8699;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2Children {}
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana2Children {
+        border-left: none;
+    }
+}
+
+
+.Ghana2Children1 {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Ghana2Children1 h2 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 45px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2Children1 h2 {
+        font-weight: 400;
+        font-size: 38px;
+    }
+}
+
+.Ghana2Children1 p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #7A8699;
+    margin-top: 0rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2Children1 p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
+.Ghana2Children h2 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 45px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2Children h2 {
+        font-weight: 400;
+        font-size: 38px;
+    }
+}
+
+.Ghana2Children p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #7A8699;
+    margin-top: 0rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana2Children p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
+
+
+.Ghana3MainContainer {
+    margin-top: 10rem;
+    width: 100%;
+
+}
+
+.Ghana3MainContainer h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #6BA6FF;
+
+}
+
+.Ghana3MainContainer h3 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #FAFBFB;
+    margin-top: 1rem;
+    width: 80%;
+    margin-left: 6rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana3MainContainer h3 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana3MainContainer h3 {
+        margin-left: 0rem;
+        text-align: center;
+        width: 100%;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+
+
+
+.Ghana4MainContainer {
+    text-align: center;
+}
+
+
+.Ghana4MainContainer img {
+    margin-top: 3rem;
+    padding-right: 3rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana4MainContainer img {
+        width: 120px;
+        height: 120px;
+        padding-right: 2rem;
+        margin-top: 0rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .Ghana4MainContainer img {
+        width: 60px;
+        height: 60px;
+        padding-right: 0rem;
+        margin-top: 0rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.Ghana5MainContainer {
+    margin-top: 10rem;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5MainContainer {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5MainContainer {
+
+        margin-top: 5rem;
+
+    }
+}
+
+.Ghana5MainParent {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5MainParent {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5MainParent {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+.Ghana5MainParent h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #6BA6FF;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5MainParent h6 {}
+}
+
+.Ghana5MainParent h3 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #FAFBFB;
+    margin-top: -0.5rem;
+    width: 80%;
+    margin-left: 6rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5MainParent h3 {
+        width: 100%;
+        margin-left: 0rem;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5MainParent h3 {
+        margin-left: 0rem;
+        width: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+.Ghana5GrandPa {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5GrandPa {
+        width: 100%;
+        margin-left: 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5GrandPa {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem !important;
+        margin-top: 3rem;
+    }
+}
+
+.Ghana5Parent {
+    width: 31%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: #1F2A3E;
+    border-radius: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.Ghana5Parent button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+.Ghana5ParentButtonn :hover {
+    background: rgba(0, 71, 179, 1);
+}
+
+.Ghana5ParentButtonn :active {
+    background: rgba(0, 62, 156, 1);
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent {
+        width: 45%;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent {
+        margin-right: 0rem !important;
+
+        width: 100% !important;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+        background: #1F2A3E;
+        border-radius: 16px !important;
+    }
+}
+
+.Ghana5Parent img {
+    width: 293.1px;
+    margin-left: -0.5rem !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent img {
+        width: 100%;
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent img {
+        margin-left: 0rem !important;
+        width: 100% !important;
+    }
+}
+
+.Ghana5Parent button {
+    background: #2B7FFF;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+
+
+.Ghana5Parent h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFBFB;
+    /* padding-bottom: 5rem; */
+    margin-left: 0.5rem;
+    height: 10rem;
+}
+
+.Ghana5Parent p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C2C7D0;
+    /* margin-top: 7rem; */
+    border-top: 1.2px solid #42526D;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.Ghana5Parent1 {
+    width: 31%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: #1F2A3E;
+    border-radius: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent1 {
+        width: 45%;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+    }
+}
+
+.Ghana5Parent1 img {
+    width: 293.1px;
+    margin-left: -0.5rem !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent1 img {
+        width: 100%;
+        margin-left: 0rem !important;
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent1 {
+        margin-right: 0rem !important;
+
+        width: 100% !important;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+        background: #1F2A3E;
+        border-radius: 16px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent1 img {
+        margin-left: 0rem !important;
+        width: 100% !important;
+    }
+}
+
+.Ghana5Parent1 button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+.Ghana5ParentButtonn1 :hover {
+    background: rgba(0, 71, 179, 1);
+}
+
+.Ghana5ParentButtonn1 :active {
+    background: rgba(0, 62, 156, 1);
+
+}
+
+.Ghana5Parent1 button {
+    background: #2B7FFF;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+
+
+.Ghana5Parent1 h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFBFB;
+    /* padding-bottom: 2.3rem; */
+    margin-left: 0.5rem;
+    height: 10rem;
+}
+
+.Ghana5Parent1 p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C2C7D0;
+    /* margin-top: 7rem; */
+    /* margin-top: 5rem; */
+    border-top: 1.2px solid #42526D;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.Ghana5Parent2 {
+    width: 31%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: #1F2A3E;
+    border-radius: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent2 {
+        width: 45%;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+    }
+}
+
+.Ghana5Parent2 img {
+    width: 293.1px;
+    margin-left: -0.5rem !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent2 img {
+        width: 100%;
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent2 {
+        margin-right: 0rem !important;
+
+        width: 100% !important;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+        background: #1F2A3E;
+        border-radius: 16px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent2 img {
+        margin-left: 0rem !important;
+        width: 100% !important;
+    }
+}
+
+.Ghana5Parent2 button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+.Ghana5ParentButtonn2 :hover {
+
+    background: rgba(12, 117, 83, 1);
+
+}
+
+.Ghana5ParentButtonn2 :active {
+  
+    background: rgba(10, 102, 73, 1);
+
+}
+
+.Ghana5Parent2 button {
+    background: #39B68E;
+    border-radius: 12px;
+    ;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+
+
+.Ghana5Parent2 h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFBFB;
+    /* padding-bottom: 0.8rem; */
+    margin-left: 0.5rem;
+    height: 10rem;
+}
+
+.Ghana5Parent2 p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C2C7D0;
+    /* margin-top: 7rem; */
+    /* margin-top: 5rem; */
+    border-top: 1.2px solid #42526D;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.Ghana5Parent3 {
+    width: 31%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: #1F2A3E;
+    border-radius: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.Ghana5Parent3 img {
+    width: 293.1px;
+    margin-left: -0.5rem !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent3 img {
+        width: 100%;
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent3 {
+        width: 45%;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent3 {
+        margin-right: 0rem !important;
+
+        width: 100% !important;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+        background: #1F2A3E;
+        border-radius: 16px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent3 img {
+        margin-left: 0rem !important;
+        width: 100% !important;
+    }
+}
+
+
+
+.Ghana5Parent3 button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+.Ghana5ParentButtonn3 :hover {
+    background: rgba(0, 71, 179, 1);
+}
+
+.Ghana5ParentButtonn3 :active {
+    background: rgba(0, 62, 156, 1);
+}
+
+.Ghana5Parent3 button {
+    background: #2B7FFF;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+
+
+.Ghana5Parent3 h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFBFB;
+    /* padding-bottom: 4.3rem; */
+    margin-left: 0.5rem;
+    height: 10rem;
+}
+
+.Ghana5Parent3 p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C2C7D0;
+    /* margin-top: 7rem; */
+    /* margin-top: 5rem; */
+    border-top: 1.2px solid #42526D;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.Ghana5Parent4 {
+    width: 31%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: #1F2A3E;
+    border-radius: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.Ghana5Parent4 img {
+    width: 293.1px;
+    margin-left: -0.5rem !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent4 img {
+        width: 100%;
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent4 {
+        width: 45%;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent4 {
+        margin-right: 0rem !important;
+
+        width: 100% !important;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+        background: #1F2A3E;
+        border-radius: 16px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent4 img {
+        margin-left: 0rem !important;
+        width: 100% !important;
+    }
+}
+
+.Ghana5Parent4 button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+
+.Ghana5ParentButtonn4 :hover {
+    background: rgba(0, 71, 179, 1);
+}
+
+.Ghana5ParentButtonn4 :active {
+    background: rgba(0, 62, 156, 1);
+}
+
+.Ghana5Parent4 button {
+    background: #2B7FFF;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+
+
+.Ghana5Parent4 h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFBFB;
+    margin-left: 0.5rem;
+    height: 10rem;
+
+}
+
+.Ghana5Parent4 p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C2C7D0;
+    /* margin-top: 7rem; */
+    /* margin-top: 5rem; */
+    border-top: 1.2px solid #42526D;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+
+.Ghana5Parent5 {
+    width: 31%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: #1F2A3E;
+    border-radius: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent5 {
+        width: 45%;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+    }
+}
+
+.Ghana5Parent5 img {
+    width: 293.1px;
+    margin-left: -0.5rem !important;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana5Parent5 img {
+        width: 100%;
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent5 {
+        margin-right: 0rem !important;
+
+        width: 100% !important;
+        padding-right: 0rem !important;
+        padding-left: 0rem;
+        background: #1F2A3E;
+        border-radius: 16px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana5Parent5 img {
+        margin-left: 0rem !important;
+        width: 100% !important;
+    }
+}
+
+.Ghana5Parent5 button a {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+.Ghana5ParentButtonn5 :hover {
+    background: rgba(0, 71, 179, 1);
+}
+
+.Ghana5ParentButtonn5 :active {
+    background: rgba(0, 62, 156, 1);
+}
+
+.Ghana5Parent5 button {
+    background: #2B7FFF;
+    border-radius: 12px;
+    border: 4px;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FAFBFB;
+}
+
+.Ghana5Parent5 h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFBFB;
+    margin-left: 0.5rem;
+    height: 10rem;
+}
+
+.Ghana5Parent5 p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C2C7D0;
+    /* margin-top: 5rem; */
+    border-top: 1.2px solid #42526D;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+
+.Ghana6MainContainer {
+    margin-top: 10rem;
+}
+
+.Ghana6MainContainer h6 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #6BA6FF;
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana6MainContainer h6 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.Ghana6MainContainer h3 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #FAFBFB;
+    margin-top: -0.5rem;
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana6MainContainer h3 {
+        font-size: 38px;
+        font-weight: 500;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .Ghana6MainContainer h3 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+
+.Ghana6MainContainer p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #A6AEBB;
+    margin-top: -0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana6MainContainer p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+.Ghana6Parent {
+    display: flex;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana6Parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Ghana6Parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.Ghana6Children {
+    border: 1.5px solid #42526D;
+    border-radius: 12px;
+    width: 33%;
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .Ghana6Children {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .Ghana6Children {
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+}
+
+.Ghana6Children img {
+    width: 40px;
+    height: 40px;
+    margin-top: 1.5rem;
+}
+
+.Ghana6Children h5 {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    color: #FAFBFB;
+    margin-top: 0.5rem;
+
+}
+
+.Ghana6Children p {
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6AEBB;
+    text-align: left;
+}
